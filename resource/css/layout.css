@@ -69,6 +69,7 @@ table td {
 .loading {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -78,6 +79,12 @@ table td {
 	background-color: rgb(129,168,149);
 }
 .loading img {width: 100%;}
+
+.notice {
+	padding: 20px 20px 0;
+	font-weight: 700;
+	font-size: 20px;
+}
 
 
 
