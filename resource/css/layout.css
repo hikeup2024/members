@@ -81,7 +81,9 @@ table td {
 .loading img {width: 100%;}
 
 .notice {
+	width: 100%;
 	padding: 20px 20px 0;
+	box-sizing: border-box;
 	font-weight: 700;
 	font-size: 20px;
 }
