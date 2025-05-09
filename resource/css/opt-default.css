@@ -1,0 +1,222 @@
+/*! 초기화(옵션) 스타일 */
+
+/* Pretendard */
+@font-face {
+	font-family: 'Pretendard';
+	src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+
+
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+img {
+	vertical-align: middle;
+	border: 0;
+}
+
+ol, ul, li, dl, dt, dd {
+	list-style: none;
+}
+
+h1, h2, h3, h4 {
+	padding: 0;
+	margin: 0;
+}
+
+body, div, dl, dt, dd, ul, li, ol, p, figure {
+	padding: 0;
+	margin: 0;
+}
+
+/* 필요한 base 넣을것 */
+:root,
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Pretendard', sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	color: rgb(0,0,0);
+}
+
+button, input[type='submit'], input[type='reset'], input[type='button'] {
+	padding: 0;
+	border: 0;
+	background: none;
+	line-height: normal;
+	font: inherit;
+	color: inherit;
+	overflow: visible;
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
+}
+
+button {
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	outline:0;
+	cursor: pointer;
+}
+
+input[type='submit'], input[type='reset'], input[type='button'] {
+	-webkit-appearance: button;
+	   -moz-appearance: button;
+	        appearance: button;
+}
+
+a {
+	color: inherit;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.acc-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	line-height: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	visibility: hidden;
+	font-size: 0;
+}
+
+fieldset {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+input[type='text'], input[type='tel'], input[type='password'], textarea {
+	-webkit-appearance: none;
+	border-radius: 0;
+	margin: 0;
+	line-height: normal;
+	border: 0;
+}
+
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	     appearance: none;
+}
+
+select,
+input[type='number'] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	     appearance: none;
+	border-radius: 0;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.ui-loader {
+	display: none;
+}
+
+select {
+	border-radius: none;
+	-webkit-border-radius: 0;
+}
+
+.cb {
+	clear: both;
+}
+a[href^=tel] {
+	color: inherit;
+}
+
+input[type="password"] {font-family: sans-serif;}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+    display:none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
