@@ -70,6 +70,7 @@ table td {
 	display: flex;
 	align-items: center;
 	height: 100dvh;
+	background-color: rgb(129,168,149);
 }
 .loading img {width: 100%;}
 
