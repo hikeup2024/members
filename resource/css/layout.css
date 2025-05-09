@@ -69,6 +69,11 @@ table td {
 .loading {
 	display: flex;
 	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	width: 100%;
 	height: 100dvh;
 	background-color: rgb(129,168,149);
 }
