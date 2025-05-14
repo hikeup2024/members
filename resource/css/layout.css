@@ -128,4 +128,20 @@ table td {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.2;
+	word-break: keep-all;
+}
+
+
+.memo-wrap .memo-con > div:nth-child(4) {
+	margin-top: 15px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.2;
+}
+.memo-wrap .memo-con > div:nth-child(5) {
+	margin-top: 5px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.2;
+	word-break: keep-all;
 }
