@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/members/static/css/main.7cc8211d.css",
-    "main.js": "/members/static/js/main.28e4aa30.js",
+    "main.css": "/members/static/css/main.7a848fae.css",
+    "main.js": "/members/static/js/main.e4d71675.js",
     "static/js/453.5c03c20a.chunk.js": "/members/static/js/453.5c03c20a.chunk.js",
     "static/media/logo_hikeup2024.png": "/members/static/media/logo_hikeup2024.0e91270ea21a5456b199.png",
     "index.html": "/members/index.html",
-    "main.7cc8211d.css.map": "/members/static/css/main.7cc8211d.css.map",
-    "main.28e4aa30.js.map": "/members/static/js/main.28e4aa30.js.map",
+    "main.7a848fae.css.map": "/members/static/css/main.7a848fae.css.map",
+    "main.e4d71675.js.map": "/members/static/js/main.e4d71675.js.map",
     "453.5c03c20a.chunk.js.map": "/members/static/js/453.5c03c20a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cc8211d.css",
-    "static/js/main.28e4aa30.js"
+    "static/css/main.7a848fae.css",
+    "static/js/main.e4d71675.js"
   ]
 }
